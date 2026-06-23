@@ -1,16 +1,22 @@
-# React + Vite
+# Syntecxhub Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and performance-optimized Expense Tracker web application built using **React** and **Vite** as part of the Syntecxhub Web Development Internship program.
 
-Currently, two official plugins are available:
+## 🚀 Key Features & React Hooks Implemented
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project fulfills all core assignment criteria by implementing advanced React state management and optimization hooks:
 
-## React Compiler
+* **Data Fetching (`useEffect`):** Automatically fetches and loads initial starter expense entries from a local mock API (`mockData.json`) upon application mounting.
+* **State Management (`useState`):** Powers controlled form inputs (Title, Amount, Category) and dynamically updates the core expenses tracker matrix array.
+* **Focus Control (`useRef`):** Provides sharp UX flow by auto-focusing the cursor directly into the 'Expense Title' input box on initial landing and instantly refocussing after every transaction submission.
+* **Performance Optimization (`useMemo`):** Caches and restricts the mathematical compilation of running balance totals, preventing redundant recalculations during isolated keyboard tracking inputs.
+* **Callback Optimization (`useCallback`):** Memoizes the item removal workflow function, preventing expensive function reconstruction cycles across basic rendering sequences.
+* **Responsive Styling:** Uses modern CSS Flexbox structures to transition elegantly across varying desktop viewports and compact mobile viewports.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Installation & Local Setup
 
-## Expanding the ESLint configuration
+To run this project locally on your machine, execute the following instructions inside your terminal:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/NagamaniGM/Syntecxhub_Expense_Tracker.git](https://github.com/NagamaniGM/Syntecxhub_Expense_Tracker.git)
